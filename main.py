@@ -9,7 +9,7 @@ class MainApplication:
         """Initialize the main application"""
         # IMPORTANT: Replace with your actual OpenWeatherMap API key
         # Get free API key at: https://openweathermap.org/api
-        self.API_KEY = "43725c6592f35ac589fed6af7a431bed"
+        self.API_KEY = "Enter your api here"
         
         if self.API_KEY == "YOUR_API_KEY_HERE":
             messagebox.showwarning(
@@ -62,24 +62,6 @@ class MainApplication:
 
 
 def main():
-    """Main entry point"""
-    print("=" * 60)
-    print("Weather Prediction App - Outdoor Event Planner")
-    print("=" * 60)
-    print("\nStarting application...")
-    print("\nRequired dependencies:")
-    print("  - tkinter (usually comes with Python)")
-    print("  - tkcalendar: pip install tkcalendar")
-    print("  - requests: pip install requests")
-    print("  - pandas: pip install pandas")
-    print("  - numpy: pip install numpy")
-    print("  - scikit-learn: pip install scikit-learn")
-    print("\nOptional (for enhanced features):")
-    print("  - tkintermapview: pip install tkintermapview")
-    print("  - tensorflow: pip install tensorflow")
-    print("  - pytorch: pip install torch")
-    print("\n" + "=" * 60 + "\n")
-    
     try:
         app = MainApplication()
         app.run()
