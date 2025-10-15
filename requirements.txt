@@ -1,0 +1,12 @@
+# Core data handling and machine learning
+pandas
+numpy
+scikit-learn
+joblib
+
+# For making API requests
+requests
+
+# GUI components
+tkcalendar
+tkintermapview
