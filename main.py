@@ -9,7 +9,7 @@ class MainApplication:
         """Initialize the main application"""
         # IMPORTANT: Replace with your actual OpenWeatherMap API key
         # Get free API key at: https://openweathermap.org/api
-        self.API_KEY = "Enter your api here"
+        self.API_KEY = "YOUR_API_KEY_HERE"
         
         if self.API_KEY == "YOUR_API_KEY_HERE":
             messagebox.showwarning(
